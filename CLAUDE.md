@@ -36,6 +36,7 @@
 ## Communication
 - Explain every change in plain English: what changed and why, with no jargon.
 - Say what you did not verify; never claim code ran if it did not.
+- Never write narrative text, interpretation, or write-ups on your own. Only insert text I give you, exactly as written.
 
 ## Lessons (LESSONS.md)
 - When I correct you or state a preference, add a line to LESSONS.md: what happened and the rule for next time.
