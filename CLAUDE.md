@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+@LESSONS.md
+
 ## Project
 - Course research project on NEET (not in education, employment, or training) youth.
 - Data: CPS ASEC (Annual Social and Economic Supplement) extracted from IPUMS CPS.
@@ -29,6 +31,13 @@
 ## Communication
 - Explain every change in plain English: what changed and why, with no jargon.
 - Say what you did not verify; never claim code ran if it did not.
+
+## Lessons (LESSONS.md)
+- When I correct you or state a preference, add a line to LESSONS.md: what happened and the rule for next time.
+- When I paste an error from Colab, or you find a mistake in your code, fix it and add a line on the cause.
+- Update an existing line instead of repeating it.
+- Keep each line short.
+- Commit LESSONS.md with your other changes.
 
 ## Git workflow
 - Commit with a clear, descriptive message.
