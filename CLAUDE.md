@@ -11,7 +11,7 @@
 - Never commit raw IPUMS data files (`.dat`, `.csv`, `.gz`, `.xml`); IPUMS terms restrict redistribution.
 - Keep data files out of git; list them in `.gitignore`.
 - In Colab, load data from Google Drive or an upload, not from the repo.
-- Use the IPUMS sample weight (`ASECWT`) for all population estimates.
+- Use `asecwt` (IPUMS `ASECWT`, renamed in the cleaned data) for person-level survey weights. Use it in every table and chart.
 - Check the IPUMS codebook before recoding any variable; note special codes (e.g. 99 = NIU, "not in universe").
 
 ## Code style
@@ -20,6 +20,11 @@
 - Use clear names (`age`, `weight`, `neet`), not abbreviations only the author knows.
 - Prefer small steps over long chained expressions.
 - One idea per notebook cell; add a short text cell above each section explaining it.
+
+## Tables and charts
+- Before any chart, print the weighted table it will show, with labels and 1 decimal.
+- A chart shows exactly the printed table. Axis labels give units (e.g. "Percent of people").
+- All y-axis scales and labels should include 0.
 
 ## Notebook rules
 - The notebook must run top to bottom in a fresh Colab session.
