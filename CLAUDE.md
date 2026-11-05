@@ -13,6 +13,7 @@
 - In Colab, load data from Google Drive or an upload, not from the repo.
 - Use `asecwt` (IPUMS `ASECWT`, renamed in the cleaned data) for person-level survey weights. Use it in every table and chart.
 - Check the IPUMS codebook before recoding any variable; note special codes (e.g. 99 = NIU, "not in universe").
+- For every table and chart, use the variables and coding from `NEET_data_cleaning.ipynb` (as saved in `neet_data.csv`). Do not rebuild or recode them.
 
 ## Code style
 - Write simple code: short lines, plain pandas, no clever tricks.
