@@ -7,6 +7,7 @@ Short notes on corrections, preferences, and mistakes. Each line: what happened,
 
 - User gave two sample notebooks (Tables and Figures, OLS) as the model. Rule: mimic them. Setup cell, then numbered sections with a short text cell. Print the weighted table (`groupby` + `wmean`, 1 decimal), then chart it. Regressions use `wls` with `asecwt`, `HC1` errors, outcome in percent.
 - User said table and chart prompts must use the variables and coding from NEET_data_cleaning.ipynb. Rule: use them as saved in neet_data.csv; do not rebuild or recode them.
+- User found the notebook code too complex (neet1 to neet6). Rule: write simple, neat code: flat loops and short pandas steps, no nested dictionaries or tricks, imports in the setup cell, short lines, no unused variables. Never change results when simplifying.
 
 ## Errors and causes
 - (none yet)
